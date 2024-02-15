@@ -29,7 +29,7 @@ namespace GoogleARCore.Examples.CloudAnchors
     /// A Controller for the Anchor object that handles hosting and resolving the Cloud Anchor.
     /// </summary>
 #pragma warning disable 618
-    public class AnchorController : NetworkBehaviour
+    public class AnchorController : NetworkReachability
 #pragma warning restore 618
     {
         /// <summary>

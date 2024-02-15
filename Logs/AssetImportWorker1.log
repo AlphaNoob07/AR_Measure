@@ -1,0 +1,439 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 12213 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+I:\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/GitHub/Unity/Muntasir/AR_Measure
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55435
+Successfully changed project path to: D:/GitHub/Unity/Muntasir/AR_Measure
+D:/GitHub/Unity/Muntasir/AR_Measure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20324] Host "[IP] 192.168.1.32 [Port] 0 [Flags] 2 [Guid] 2781155871 [EditorId] 2781155871 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PO85RA3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20324] Host "[IP] 192.168.1.32 [Port] 0 [Flags] 2 [Guid] 2781155871 [EditorId] 2781155871 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PO85RA3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 64.62 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path I:/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Unity/Muntasir/AR_Measure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'I:/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'I:/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'I:/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: I:/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: I:/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: I:/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: I:/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: I:/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.018199 seconds.
+- Loaded All Assemblies, in  0.952 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 487 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.029 seconds
+Domain Reload Profiling: 1981ms
+	BeginReloadAssembly (530ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (530ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (210ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1030ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (947ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (699ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Assembly 'Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.100.0.dll' will not be loaded due to errors:
+Assembly name 'Google.JarResolver' does not match file name 'Google.JarResolver_v1.2.100.0'
+Assembly 'Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.100.0.dll' will not be loaded due to errors:
+Assembly name 'Google.VersionHandlerImpl' does not match file name 'Google.VersionHandlerImpl_v1.2.100.0'
+Symbol file LoadedFromMemory is not a mono symbol file
+Assembly 'Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll' will not be loaded due to errors:
+Assembly name 'JetBrains.Rider.Unity.Editor.Plugin.Full.Repacked' does not match file name 'JetBrains.Rider.Unity.Editor.Plugin.Repacked'
+Assembly 'Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.100.0.dll' will not be loaded due to errors:
+Assembly name 'Google.IOSResolver' does not match file name 'Google.IOSResolver_v1.2.100.0'
+- Loaded All Assemblies, in  1.837 seconds
+Refreshing native plugins compatible for Editor in 22.76 ms, found 5 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.395 seconds
+Domain Reload Profiling: 3231ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (1494ms)
+		LoadAssemblies (1336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (282ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (206ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1395ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1129ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (589ms)
+			ProcessInitializeOnLoadMethodAttributes (350ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (10ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 23.95 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 108 unused Assets / (1.2 MB). Loaded Objects now: 4459.
+Memory consumption went from 161.6 MB to 160.4 MB.
+Total: 16.695200 ms (FindLiveObjects: 0.629700 ms CreateObjectMapping: 0.322200 ms MarkObjects: 14.642400 ms  DeleteObjects: 1.099000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89140.997822 seconds.
+  path: Assets/ARular/Material
+  artifactKey: Guid(ff9b815c7ba5a449daf3b25b5bdeca54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARular/Material using Guid(ff9b815c7ba5a449daf3b25b5bdeca54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75523bfe96e5a5f00549ff688e24054') in 0.004775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 745.390957 seconds.
+  path: Assets/ARular/Sprite/Circle.mat
+  artifactKey: Guid(f630c1b08b94c4243833728541a09107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARular/Sprite/Circle.mat using Guid(f630c1b08b94c4243833728541a09107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721d612e6dbe02bc2948c5ce5fb15fc6') in 1.073716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.958786 seconds.
+  path: Assets/CurvedLine/Materials/LineMaterialBlack.mat
+  artifactKey: Guid(b4c1fa4011535f643bed19e092069fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedLine/Materials/LineMaterialBlack.mat using Guid(b4c1fa4011535f643bed19e092069fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37e52f4b28f98e4ca3be549d653fdcf') in 0.057200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CurvedLine/Materials/LineNormalMappedBrown.mat
+  artifactKey: Guid(7cd15f262ec4ab34dae6688662b004c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedLine/Materials/LineNormalMappedBrown.mat using Guid(7cd15f262ec4ab34dae6688662b004c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c24c5b6bae2f026ade33b76cb4ac3e') in 0.305951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CurvedLine/Materials/LineNormalMappedBlue.mat
+  artifactKey: Guid(28fd0f74217b2dd44a0c5a67f131c680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedLine/Materials/LineNormalMappedBlue.mat using Guid(28fd0f74217b2dd44a0c5a67f131c680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a78709419aae6af7b4750489a571aa9') in 0.025188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CurvedLine/Materials/LineNormalMappedWhite.mat
+  artifactKey: Guid(0957a12ed7794404a91e2a8a3c760857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedLine/Materials/LineNormalMappedWhite.mat using Guid(0957a12ed7794404a91e2a8a3c760857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffff87b0920479fccf83213106a33e33') in 0.023587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.485056 seconds.
+  path: Assets/XR/Settings/ARCoreSettings.asset
+  artifactKey: Guid(dd46b7aae435c4d4baed4a819ecdd598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Settings/ARCoreSettings.asset using Guid(dd46b7aae435c4d4baed4a819ecdd598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71013e6e3cd194b9af7a0c5e3631ea13') in 0.380478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(ac01abd4c82cd4fd48b1567c3aafc26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(ac01abd4c82cd4fd48b1567c3aafc26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e912bc63d7d1976e6f7d0e41b451a323') in 0.064364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.446960 seconds.
+  path: Assets/GoogleARCore/SDK/Scripts/CameraMetadataTag.cs
+  artifactKey: Guid(68f2bf600965540b080a2244b1221f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/SDK/Scripts/CameraMetadataTag.cs using Guid(68f2bf600965540b080a2244b1221f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf641c78bca4d1d544cdbd458f70003') in 0.002221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/GoogleARCore/SDK/Scripts/Api/Wrappers/CameraMetadataApi.cs
+  artifactKey: Guid(d972b11e53fb14a5cb38b3b81e420a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/SDK/Scripts/Api/Wrappers/CameraMetadataApi.cs using Guid(d972b11e53fb14a5cb38b3b81e420a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaac86767d8b75620c0fd3dfb105348') in 0.004296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.487073 seconds.
+  path: Assets/GoogleARCore/Examples/Common/Materials/Andy/Andy.obj
+  artifactKey: Guid(0e8c4400e5a274e79b60fa5a300aab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/Common/Materials/Andy/Andy.obj using Guid(0e8c4400e5a274e79b60fa5a300aab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad2437056f3f4681dd79bf53442390c') in 0.338495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ARular/Fonts/junction-master/Junction-light.otf
+  artifactKey: Guid(f814898a78d8c47649c32a8d8fdbabea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARular/Fonts/junction-master/Junction-light.otf using Guid(f814898a78d8c47649c32a8d8fdbabea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4da2b0e6e1bced23accb6adefd688d') in 0.068955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afe894d99e14fb9ed1a013e2dde7636') in 0.144741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedFaces/Materials/FoxNoiseMaterial.mat
+  artifactKey: Guid(3e6f4ede1d3624331a46ec5006f54bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedFaces/Materials/FoxNoiseMaterial.mat using Guid(3e6f4ede1d3624331a46ec5006f54bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ea584af242c58b2900437a9065d399') in 0.043978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ARular/Fonts/junction-master/Junction-regular SDF.asset
+  artifactKey: Guid(1d06a9ca15de9445cba4ca3215610172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARular/Fonts/junction-master/Junction-regular SDF.asset using Guid(1d06a9ca15de9445cba4ca3215610172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd5b9c9e5b5b92a6d3e0862644a663a') in 0.053827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ARular/Fonts/junction-master/Junction-regular.otf
+  artifactKey: Guid(8bb8cdefcb7a047f7b717bae107f1d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARular/Fonts/junction-master/Junction-regular.otf using Guid(8bb8cdefcb7a047f7b717bae107f1d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573384616a6be07dce1c4dd2418a1154') in 0.013619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ARular/Material/LineMat.mat
+  artifactKey: Guid(29e9236ae36c14d0d80223403042bbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARular/Material/LineMat.mat using Guid(29e9236ae36c14d0d80223403042bbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7588844e0d41c67058acb1ceacdacc6') in 0.042992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyMaterialGreen.mat
+  artifactKey: Guid(572e1e52514434db5a8ce3957db3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyMaterialGreen.mat using Guid(572e1e52514434db5a8ce3957db3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0753ba1a77d20a87bcbf82e528cec49b') in 0.140244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GoogleARCore/Examples/ComputerVision/Materials/EdgeDetectionBackgroundMaterial.mat
+  artifactKey: Guid(44aa46aeaaf4d46a79e18f3e2da31ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/ComputerVision/Materials/EdgeDetectionBackgroundMaterial.mat using Guid(44aa46aeaaf4d46a79e18f3e2da31ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5927903b7a459a774cd00d6592e9b7df') in 0.019339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedFaces/Materials/FoxFaceMaterial.mat
+  artifactKey: Guid(0bd8659d068ce46a184e47548889cadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedFaces/Materials/FoxFaceMaterial.mat using Guid(0bd8659d068ce46a184e47548889cadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0723ddd8f0811753e946654809ef55') in 0.239260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0110776b498c305afea09b4716af578') in 0.126383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ARular/Fonts/junction-master/Junction-regular.asset
+  artifactKey: Guid(a83fdc100cb484a8faa5e67438c1d249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARular/Fonts/junction-master/Junction-regular.asset using Guid(a83fdc100cb484a8faa5e67438c1d249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9803390de42111ea93e34d18d2d57edb') in 0.040603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GoogleARCore/Examples/Common/Materials/PointCloud.mat
+  artifactKey: Guid(fb4fbd1b92e244df2bc6f43deb7a57a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/Common/Materials/PointCloud.mat using Guid(fb4fbd1b92e244df2bc6f43deb7a57a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e591a0b7c286164c5a29de75c270403') in 0.017614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyBlobShadow.obj
+  artifactKey: Guid(1d7855df49bfa483e8f1d8478d4b233a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyBlobShadow.obj using Guid(1d7855df49bfa483e8f1d8478d4b233a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2964fa078b75a8877f1668d1684e25d') in 0.066833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ARular/Material/GroundColor.mat
+  artifactKey: Guid(38770b59459314c9c97d17fc53eaa33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARular/Material/GroundColor.mat using Guid(38770b59459314c9c97d17fc53eaa33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8357c66c8f8bf124a0c7281cabd46364') in 0.241788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 34.169806 seconds.
+  path: Assets/GoogleARCore/Examples/Common/Prefabs/AndyGreenDiffuse.prefab
+  artifactKey: Guid(63e9325810cb14b9e8e0590d57d87afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/Common/Prefabs/AndyGreenDiffuse.prefab using Guid(63e9325810cb14b9e8e0590d57d87afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3f236d73bb6c793c879cecf6e465bb') in 0.327729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 8.797408 seconds.
+  path: Assets/GoogleARCore/Examples/Common/Materials/Textures/CloudAnchorIcon.png
+  artifactKey: Guid(dcfb8b44c93d547e2bdf8a638c1415af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/Common/Materials/Textures/CloudAnchorIcon.png using Guid(dcfb8b44c93d547e2bdf8a638c1415af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bf027c9a1c47d187e0f32ba1009c8b') in 0.033835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GoogleARCore/Examples/Common/Materials/Textures/ObjectManipulationIcon.png
+  artifactKey: Guid(db4401439efdb4e83a8095ae5370d9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/Common/Materials/Textures/ObjectManipulationIcon.png using Guid(db4401439efdb4e83a8095ae5370d9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b20388dffb77342ca63648a202e4d71') in 0.026286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
