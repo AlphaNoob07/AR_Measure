@@ -3,9 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - ManipulationSystem
-  - Circle
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -15,10 +13,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - PostProcessing
+  - Screen Space
+  - Ignore AR Camera
+  - Ignore Blob Shadow
   - 
   - 
   - 
@@ -42,4 +40,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: MeasuringLine
+    uniqueID: 3153666717
     locked: 0
